@@ -5,7 +5,7 @@ import net.minecraft.recipe.Ingredient;
 
 public class SteelToolMaterial implements ToolMaterial {
 
-    public static final SteelToolMaterial INSTANCE = new SteelToolMaterial();
+    public static final SteelToolMaterial STEEL_TOOL_MATERIAL = new SteelToolMaterial();
     @Override
     public int getDurability() {
         return 520;
