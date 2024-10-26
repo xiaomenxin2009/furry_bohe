@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "furry_bohe",
+	"version": "0.0.1-Fabric_1.20.1_beta",
+	"name": "furry_bohe",
+	"description": "This is a mod for furry!",
+	"authors": [
+		"furry_bohe team"
+	],
+	"contact": {
+		"homepage": "https://github.com/xiaomenxin2009/furry_bohe",
+		"sources": "https://github.com/xiaomenxin2009/furry_bohe"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/furry_bohe/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.furry_bohe.mc.Furry_bohe"
+		],
+		"fabric-datagen": [
+			"com.furry_bohe.mc.Furry_boheDataGenerator"
+		]
+	},
+	"mixins": [
+		"furry_bohe.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

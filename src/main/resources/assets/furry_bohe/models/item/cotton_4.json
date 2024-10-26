@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "furry_bohe:item/wei_qu_jing_mian_hua_"
+  }
+}

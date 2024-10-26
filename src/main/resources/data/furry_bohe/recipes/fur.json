@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "aaa",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "item": "furry_bohe:plush"
+    }
+  },
+  "result": {
+    "id": "furry_bohe:fur",
+    "count": 1
+  }
+}
