@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "furry_bohe",
   "pattern": [
     "aba",
     "bcb",
@@ -7,7 +8,7 @@
   ],
   "key": {
     "a": {
-      "item": "furry_bohe:plush"
+      "item": "furry_bohe:fur_plush"
     },
     "b": {
       "item": "furry_bohe:fur"
@@ -17,7 +18,7 @@
     }
   },
   "result": {
-    "id": "furry_bohe:furry_bohe",
+    "item": "furry_bohe:furry_bohe",
     "count": 5
   }
 }

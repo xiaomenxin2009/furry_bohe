@@ -1,14 +1,16 @@
 package com.furry_bohe.mc;
 
+import com.furry_bohe.mc.block.ModBlocks;
 import com.furry_bohe.mc.item.*;
-import com.furry_bohe.mc.item.RegistryUtil;
+import com.furry_bohe.mc.util.RegistryBlock;
+import com.furry_bohe.mc.util.RegistryItem;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Furry_bohe implements ModInitializer {
-	public static final String MOD_ID = "Furry_bohe";
+	public static final String MOD_ID = "furry_bohe";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -22,14 +24,15 @@ public class Furry_bohe implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Furry_bohe");
-		ItemGround.initialize();
-		RegistryUtil.initialize();
-
+		ModItemGround.initialize();
+		RegistryItem.initialize();
+		RegistryBlock.initialize();
 
 		ModItems.initialize();
+		ModBlocks.initialize();
+
 		SteelItem.initialize();
-		SteelTool.initialize();
-		SteelToolMaterial.initialize();
+		FurSteelItem.initialize();
 
 
 	}

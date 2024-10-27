@@ -7,11 +7,11 @@
   ],
   "key": {
     "a": {
-      "item": "furry_bohe:plush"
+      "item": "furry_bohe:fur_plush"
     }
   },
   "result": {
-    "id": "furry_bohe:fur",
+    "item": "furry_bohe:fur",
     "count": 1
   }
 }

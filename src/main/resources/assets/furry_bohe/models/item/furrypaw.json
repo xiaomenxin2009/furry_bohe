@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "furry_bohe:item/furry_paw"
-  }
-}
