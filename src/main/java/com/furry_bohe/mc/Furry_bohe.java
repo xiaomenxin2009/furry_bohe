@@ -1,6 +1,8 @@
 package com.furry_bohe.mc;
 
 import com.furry_bohe.mc.block.ModBlocks;
+import com.furry_bohe.mc.effect.OestrusStatusEffect;
+import com.furry_bohe.mc.effect.RegistryEffect;
 import com.furry_bohe.mc.item.*;
 import com.furry_bohe.mc.util.RegistryBlock;
 import com.furry_bohe.mc.util.RegistryItem;
@@ -27,6 +29,7 @@ public class Furry_bohe implements ModInitializer {
 		ModItemGround.initialize();
 		RegistryItem.initialize();
 		RegistryBlock.initialize();
+		RegistryEffect.initialize();
 
 		ModItems.initialize();
 		ModBlocks.initialize();
@@ -34,6 +37,6 @@ public class Furry_bohe implements ModInitializer {
 		SteelItem.initialize();
 		FurSteelItem.initialize();
 
-
+		OestrusStatusEffect.initialize();
 	}
 }
